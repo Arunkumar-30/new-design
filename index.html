@@ -8,24 +8,15 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-  href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-  rel="stylesheet"
-/>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-  href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-  rel="stylesheet"
-/>
+<!-- Inside <head> -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
     <div class="container">
       <div class="one">
-        <div class="one-content">
+        <div class="one-content banner">
           <h1>
             Find a Signature <br />
             Scent you Love
@@ -45,7 +36,7 @@
         </div>
       </div>
       <div class="second">
-        <div class="second-content-1">
+        <div class="second-content-1 " data-aos="fade-up">
           <h1>Featured</h1>
           <h3>The Perfection</h3>
           <p>
@@ -53,7 +44,7 @@
             eiusmod tempor incididunt ut labore et dolore.
           </p>
         </div>
-        <div class="second-content-2">
+        <div class="second-content-2" data-aos="fade-up">
           <div>
             <img src="assets/brand.png" alt="" />
             <h5>Top Brand</h5>
@@ -64,7 +55,7 @@
             <a href="#">Learn more</a>
           </div>
         </div>
-        <div class="second-content-3">
+        <div class="second-content-3" data-aos="fade-up">
           <div>
             <img src="assets/call-center.png" alt="" />
             <h5>24/7 Support</h5>
@@ -78,7 +69,7 @@
       </div>
       <div class="three">
         <div class="three-overlay"></div>
-        <div class="three-content">
+        <div class="three-content" data-aos="fade-up">
           <h4>About</h4>
           <h1>The New Fresh Sensation</h1>
           <p>
@@ -89,11 +80,11 @@
         </div>
       </div>
         <div class="four">
-        <div class="four-content">
+        <div class="four-content" data-aos="fade-up">
           <h1>About</h1>
           <h2>The New Fresh Sensation</h2>
         </div>
-        <section class="four-section">
+        <section class="four-section" data-aos="fade-up">
           <div class="four-flex">
             <div class="image-block">
               <img src="assets/spray-bottle.jpg" alt="spray" />
@@ -127,11 +118,11 @@
         </section>
       </div>
       <div class="five">
-        <div class="five-content">
+        <div class="five-content" data-aos="fade-up">
           <h1>About</h1>
           <h2>The New Fresh Sensation</h2>
         </div>
-        <div class="five-section">
+        <div class="five-section" data-aos="fade-up">
           <div class="five-blog">
             <img src="assets/women-perfume.png" alt="Cool Winters" />
             <h2>Cool Winters</h2>
@@ -155,7 +146,7 @@
       <div class="six">
         <div class="six-overlay"></div>
         <div class="six-section">
-          <div class="six-blog-1">
+          <div class="six-blog-1" data-aos="fade-up">
             <h1>Feadback</h1>
             <h2>Testimonal</h2>
           </div>
@@ -211,11 +202,11 @@
       </div>
 
       <div class="seven">
-        <div class="seven-content">
+        <div class="seven-content" data-aos="fade-up">
           <h1>About</h1>
           <h2>The New Fresh Sensation</h2>
         </div>
-        <div class="seven-section">
+        <div class="seven-section" data-aos="fade-up">
           <div class="blog-section">
             <div class="blog-section-img">
               <div class="elementskit-entry-header">
@@ -391,7 +382,12 @@
       disableOnInteraction: false,
     },
   });
+</script><!-- Before </body> -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
 </script>
+
 
   </body>
 </html>
