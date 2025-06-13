@@ -46,7 +46,7 @@ header ul{
     display: none;
 }
 .item img.fruit{
-    width: 90%;
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
