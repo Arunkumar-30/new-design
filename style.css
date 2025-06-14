@@ -35,11 +35,11 @@ h1{
     background-color: #202020;
   }
   
-  .one::before {
+  /* .one::before {
     content: "";
     position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+    background-color: rgba(0, 0, 0, 0.5); 
     z-index: 1;
   }
   .one-content {
@@ -102,7 +102,7 @@ h1{
    position: absolute;
     top: 10%;
     right: 250px;
-  }
+  } */
  /* .one-border-1{
     border: 1px solid #d4a429;
     padding: 10px;
@@ -370,7 +370,7 @@ h1{
 .four {
   width: 100%;
   height: auto;
-  padding: 60px 20px;
+  padding: 40px 20px;
   box-sizing: border-box;
   background-color: #1f1f1f;
 }
@@ -678,20 +678,22 @@ h1{
     background-color: #fff;
     color: #000;
   } */
-  .six {
+.six {
   width: 100%;
-  height: 70vh; /* Changed from fixed 70vh for better responsiveness */
+  height: 70vh;
   position: relative;
   margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("/assets/black-bottle.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: url("/assets/w-3.png");
+  background-size: cover;        /* Ensures the full image is shown */
+  background-repeat: no-repeat;    /* Prevents tiling */
+  background-position: center;     /* Centers the image */
   padding: 60px 20px;
   box-sizing: border-box;
 }
+
 
 .six-overlay {
   position: absolute;
@@ -700,7 +702,7 @@ h1{
   width: 100%;
   height: 100%;
   background-color: #202020;
-  opacity: 0.6;
+  opacity: 0.8;
   z-index: 1;
 }
 
