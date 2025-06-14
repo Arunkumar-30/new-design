@@ -169,12 +169,12 @@ header ul{
     height: var(--height-mockup);
     width: var(--width-mockup);
     background: 
-        url(img/mockup.png)  0 0 no-repeat, 
-        url(img/listSoda.png) var(--left) 0;
+        url(img/mockup.webp)  0 0 no-repeat, 
+        url(img/listSoda.webp) var(--left) 0;
     background-size: auto 100%;
     background-blend-mode: multiply;
     -webkit-mask-image: 
-    url(img/mockup.png);
+    url(img/mockup.webp);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: auto 100%;
     transition: background 0.5s;
@@ -184,7 +184,7 @@ header ul{
     position: absolute;
     width: 170px;
     height: 170px;
-    background-image: url(img/leaves.png);
+    background-image: url(img/leaves.webp);
     background-size: 100%;
     top: calc((50% - (var(--height-mockup) / 1.7)));
     left: calc((50% + (var(--width-mockup) / 5)));

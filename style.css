@@ -210,6 +210,7 @@ h1{
   width: 50px;
   height: 50px;
   object-fit: contain;
+
 }
 
 .second-content-1 h1 {
@@ -461,7 +462,7 @@ h1{
 }
 
 .right-block-1 {
-  background-image: url('assets/ex-1.png');
+  background-image: url('/assets/w-3.webp');
   background-size: cover;
   background-position: center;
   padding: 30px;
@@ -474,7 +475,7 @@ h1{
   box-sizing: border-box;
 }
 .right-block-2{
- background-image: url('assets/fe-1.png');
+ background-image: url('/assets/w-3.webp');
   background-size: cover;
   background-position: center;
   padding: 30px;
@@ -487,7 +488,7 @@ h1{
   box-sizing: border-box;
 }
 .right-block-3{
- background-image: url('assets/el-1.png');
+ background-image: url('/assets/w-3.webp');
   background-size: cover;
   background-position: center;
   padding: 30px;
@@ -680,18 +681,19 @@ h1{
   } */
 .six {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   position: relative;
   margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("/assets/w-3.png");
+  background-image: url("/assets/w-3.webp");
   background-size: cover;        /* Ensures the full image is shown */
   background-repeat: no-repeat;    /* Prevents tiling */
   background-position: center;     /* Centers the image */
   padding: 60px 20px;
   box-sizing: border-box;
+ 
 }
 
 
