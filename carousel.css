@@ -1,30 +1,7 @@
-body{
-    margin: 0;
-}
-header{
-    display: flex;
-    height: 40px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 50px;
-    box-sizing: border-box;
-    font-family: monospace;
-    font-weight: bold;
-    font-size: large;
-    position: relative;
-    z-index: 1;
-}
-header ul{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
 
 .carousel{
     width: 100vw;
-    height: 110vh;
+    height: 100vh;
     position: relative;
     overflow: hidden;
     margin-top: -50px;
@@ -95,7 +72,7 @@ header ul{
     cursor: pointer;
     z-index: 15;
 }
-#prev{
+#prev{  
     left: 20px;
 }
 #next{
@@ -204,9 +181,13 @@ header ul{
     .item .content{
         transform: translate(-50%, -50%) scale(.5);
     }
+    .list{
+        width: 100%;
+        height: 60%;
+    }
     .item img.fruit{
         width: 100%;
-        height: 100%;
+        height: 70%;
         object-fit: cover;
     }
 }

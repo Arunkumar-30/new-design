@@ -1,5 +1,5 @@
-let list = document.querySelectorAll('.carousel .list .item');
-let carousel = document.querySelector('.carousel');
+let list = document.querySelectorAll('.carousel-signature .list .item');
+let carousel = document.querySelector('.carousel-signature');
 let next = document.getElementById('next');
 let prev = document.getElementById('prev');
 
