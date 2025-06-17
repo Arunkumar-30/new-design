@@ -3,13 +3,13 @@
     background-color: #202020;
   }
 
-h1{
+/* h1{
     color: white;
     text-align: center;
     animation: ani ;
     -webkit-animation: ani 3s;
     font-size: 70px;
-}
+} */
 @keyframes ani{
     from{
         letter-spacing: 25px;
@@ -161,9 +161,9 @@ h1{
   
   
    */
-.second {
+/* .second {
   width: 100%;
-  height: auto; /* allow content to grow naturally */
+  height: auto; 
   position: relative;
   display: flex;
   justify-content: center;
@@ -258,7 +258,7 @@ h1{
   font-weight: bold;
 }
 
-/* ✅ Mobile responsiveness */
+
 @media screen and (max-width: 768px) {
   .second {
     flex-direction: column;
@@ -298,20 +298,22 @@ h1{
     height: 40px;
   }
 }
- 
-  /* .three {
-   
-    height: 80vh;
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-image: url("/assets/bottle-women.jpg");
-    background-size: cover;
-    background-position: center;
-    padding: 0 5%;
-    overflow: hidden;
-  }
+  */
+  .three {
+  height: 80vh;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url("/assets/wa-banner-1.png");
+  background-size: cover;             /* Ensures image covers full container */
+  background-repeat: no-repeat;       /* Prevents image from repeating */
+  background-position: center center; /* Centers the image */
+  padding: 0 5%;
+  overflow: hidden;
+  background-attachment: fixed; 
+}
+
   
   .three-overlay {
     position: absolute;
@@ -340,7 +342,7 @@ h1{
     margin-bottom: 10px;
   }
   
-  .three-content h1 {
+  .three-content .three-heading {
     font-size: 38px;
     font-weight: 800;
     margin-bottom: 20px;
@@ -367,7 +369,7 @@ h1{
     background-color: #d4a429;
     color: #202020;
   }
-   */
+  
 .four {
   width: 100%;
   height: auto;
